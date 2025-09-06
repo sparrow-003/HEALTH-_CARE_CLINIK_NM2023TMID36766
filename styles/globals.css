@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@400;700&display=swap');
+
+:root {
+  --color-primary: #2B87F4;
+  --color-background: #0D0D0D;
+  --color-accent: rgba(255, 255, 255, 0.1);
+  --color-shadow: rgba(0, 0, 0, 0.5);
+  --border-radius: 1rem;
+
+  --font-inter: 'Inter', sans-serif;
+  --font-sora: 'Sora', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-inter);
+  background-color: var(--color-background);
+  color: #fff; /* Default text color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sora);
+  color: var(--color-primary);
+}
+
+/* Global styles for crystal aesthetic and premium look */
+.glassmorphism-card {
+  background-color: var(--color-accent);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 30px var(--color-shadow);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Other global styles can be added here */
+
